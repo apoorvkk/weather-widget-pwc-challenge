@@ -10,7 +10,9 @@
     "start": "webpack serve",
     "build": "webpack",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
-    "lint:fix": "eslint 'src/**/*.{js,jsx,ts,tsx}' --fix"
+    "lint:fix": "eslint 'src/**/*.{js,jsx,ts,tsx}' --fix",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "dependencies": {
     "@types/react-dom": "^17.0.0",
@@ -26,8 +28,13 @@
     "webpack-dev-server": "^3.11.0"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@types/jest": "^26.0.19",
     "@typescript-eslint/eslint-plugin": "^4.9.1",
     "@typescript-eslint/parser": "^4.9.1",
-    "eslint": "^7.15.0"
+    "eslint": "^7.15.0",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.4.4"
   }
 }
