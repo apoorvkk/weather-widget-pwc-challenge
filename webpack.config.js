@@ -9,6 +9,9 @@ module.exports = {
     path: path.resolve(__dirname, "build"),
     filename: "bundle.js",
   },
+  devServer: {
+    publicPath: '/'
+  },
   resolve: {
     extensions: [".js", ".jsx", ".json", ".ts", ".tsx"],
   },
@@ -22,6 +25,10 @@ module.exports = {
         enforce: "pre",
         test: /\.js$/,
         loader: "source-map-loader",
+      },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader']
       }
     ],
   },

@@ -1,9 +1,12 @@
-import * as React from 'react'
+import React from 'react'
+
+import Button from 'react-bootstrap/Button'
 
 const Widget = () => (
-  <h1>
-    Weather Widget!
-  </h1>
+  <>
+    HI!
+    <Button>Hello!</Button>
+  </>
 )
 
 export default Widget
