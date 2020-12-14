@@ -10,10 +10,13 @@ module.exports = {
     filename: "bundle.js",
   },
   devServer: {
-    publicPath: '/'
+    publicPath: "/",
   },
   resolve: {
     extensions: [".js", ".jsx", ".json", ".ts", ".tsx"],
+    alias: {
+      src: path.resolve(__dirname, "src"),
+    },
   },
   module: {
     rules: [
@@ -28,13 +31,13 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: ['style-loader', 'css-loader']
-      }
+        use: ["style-loader", "css-loader"],
+      },
     ],
   },
   plugins: [
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, "src", "index.html"),
-    })
+    }),
   ],
 };

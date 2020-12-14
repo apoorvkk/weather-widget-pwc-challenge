@@ -9,7 +9,10 @@
         "sourceMap": true,
         "target": "es6",
         "esModuleInterop": true,
-        "skipLibCheck": true,
+        "skipLibCheck": true,,
+        "paths": {
+            "src/*": ["./src/*"]
+        }
     },
     "include": [
         "src/index.tsx"
