@@ -1,20 +1,15 @@
 {
-    "compilerOptions": {
-        "jsx": "react",
-        "module": "commonjs",
-        "noImplicitAny": true,
-        "outDir": "./build/",
-        "preserveConstEnums": true,
-        "removeComments": true,
-        "sourceMap": true,
-        "target": "es6",
-        "esModuleInterop": true,
-        "skipLibCheck": true,,
-        "paths": {
-            "src/*": ["./src/*"]
-        }
-    },
-    "include": [
-        "src/index.tsx"
-    ]
+  "compilerOptions": {
+    "jsx": "react",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "outDir": "./build/",
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "target": "es6",
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["./src/**/*", "./tests/**/*"]
 }

@@ -1,11 +1,9 @@
 module.exports = {
   roots: ["<rootDir>/src"],
   transform: {
-    "^.+\\.tsx?$": "ts-jest"
+    "^.+\\.tsx?$": "ts-jest",
   },
-  setupFilesAfterEnv: [
-    "@testing-library/jest-dom/extend-expect"
-  ],
+  setupFilesAfterEnv: ["./jest.setup.ts"],
 
   testRegex: "(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$",
 
@@ -13,5 +11,5 @@ module.exports = {
   moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"],
   restoreMocks: true,
   clearMocks: true,
-  resetMocks: true
+  resetMocks: true,
 };
