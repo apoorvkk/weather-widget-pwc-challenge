@@ -1,3 +1,9 @@
+/*
+This component is responsible for rendering the weather data under the form controls.
+For example, it will render the current day's weather data (temp, humidity, pressure etc.)
+and the forecasted weather for the upcoming week.
+*/
+
 import React from "react";
 import dayjs from "dayjs";
 

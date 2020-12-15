@@ -1,3 +1,9 @@
+/*
+This is the top most components found in the Weather Widget app.
+It is responsible for rendering the wireframe and delivering config 
+data to children components.
+*/
+
 import React from "react";
 
 import WeatherConfig from "../WeatherConfig";

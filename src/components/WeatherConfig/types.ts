@@ -1,3 +1,8 @@
+/*
+This file holds all the types associated to WeatherConfig.
+It was mainly created for organisational purposes.
+*/
+
 export interface ForcastDayResponseJsonInterface {
   humidity: number; //  In percentage
   temp: {

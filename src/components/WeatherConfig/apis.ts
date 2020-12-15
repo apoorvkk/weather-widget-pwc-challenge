@@ -1,4 +1,12 @@
+/*
+This module is responsible for interfacing between the backend server
+and the frontend application. Any changes to the api data returned
+from the server can be managed and changed here without affecting the frontend
+app.
+*/
+
 import axios from "axios";
+
 import {
   WeatherResponseJsonInterface,
   ForecastResponseJsonInterface,

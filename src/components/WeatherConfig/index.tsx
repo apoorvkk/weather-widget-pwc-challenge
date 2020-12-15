@@ -1,3 +1,12 @@
+/*
+This component is mainly responsible for data management via React
+Context. On mount, it will simply fetch weather day (using our API module)
+and then pass down the necessary data and handlers to children components
+via context. The handlers give the children components an opportunity 
+to update the data (eg. control form input and fire off new requests when
+the user searches for another city).
+*/
+
 import React, { useEffect, useState } from "react";
 
 import { WeatherDataInterface } from "./types";

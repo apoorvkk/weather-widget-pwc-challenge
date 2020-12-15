@@ -1,3 +1,10 @@
+/*
+This component is responsible for rendering the full content of the widget
+which includes the controls (location input and imperial toggle) and the
+weather results page. Because it renders the full content, I also manage 
+loading/error UI states here too.
+*/
+
 import React from "react";
 
 import Row from "react-bootstrap/Row";

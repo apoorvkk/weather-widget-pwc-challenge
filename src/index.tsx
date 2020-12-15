@@ -1,3 +1,8 @@
+/*
+This is the entry file of the Weather Widget application.
+Here, we embed the React app into an example html file.
+*/
+
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 
