@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when loading does not render any content 1`] = `<div />`;
+
+exports[`when status is 404 does not render any content 1`] = `<div />`;
+
+exports[`when status is 500 does not render any content 1`] = `<div />`;
