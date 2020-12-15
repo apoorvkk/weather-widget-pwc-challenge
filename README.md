@@ -85,6 +85,7 @@ yarn lint
 - Potentially expose the widget as a package.
 - Internationalisation to support multiple languages.
 - Add more features (eg. temperature graph, location on map).
+- Integrate a CI/CD pipeline to run tests, linters and deployment scripts.
 
 ## Tools used
 
